@@ -19,6 +19,7 @@ include_directories(
 
 add_library(fusion
   fusion.cpp
+  search_distance.cpp
 )
 
 target_link_libraries(fusion
